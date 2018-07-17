@@ -1,0 +1,14 @@
+{
+  "name": "trivia",
+  "description": "Trivia Coding Kata",
+  "version": "1.0.0",
+  "authors": [
+  ],
+  "scripts": {
+    "test": "phpunit"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
