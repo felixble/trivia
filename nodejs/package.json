@@ -4,11 +4,20 @@
   "description": "Test with node.js =====================",
   "main": "game.js",
   "scripts": {
-    "test": "mocha src/**/*.spec.js"
+    "test": "nyc mocha src/**/*.spec.js"
+  },
+  "nyc": {
+    "reporter": [
+      "text-summary",
+      "text",
+      "html"
+    ]
   },
   "author": "",
   "license": "GPL v3",
-  "dependencies": {},
+  "dependencies": {
+    "nyc": "^12.0.2"
+  },
   "devDependencies": {
     "mocha": "^5.2.0",
     "should": "^13.2.1"
