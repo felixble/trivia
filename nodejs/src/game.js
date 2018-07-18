@@ -142,7 +142,7 @@ var Game = function () {
 
       console.log("Answer was correct!!!!");
 
-      purses[currentPlayer] += 1;
+      purses[currentPlayer] += 2;
       console.log(players[currentPlayer] + " now has " +
           purses[currentPlayer] + " Gold Coins.");
 

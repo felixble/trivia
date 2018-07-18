@@ -125,7 +125,7 @@ class Game {
 		if ($this->inPenaltyBox[$this->currentPlayer]){
 			if ($this->isGettingOutOfPenaltyBox) {
 				echoln("Answer was correct!!!!");
-			$this->purses[$this->currentPlayer]++;
+			$this->purses[$this->currentPlayer] += 1;
 				echoln($this->players[$this->currentPlayer]
 						. " now has "
 						.$this->purses[$this->currentPlayer]
@@ -146,8 +146,8 @@ class Game {
 
 		} else {
 
-			echoln("Answer was corrent!!!!");
-		$this->purses[$this->currentPlayer]++;
+			echoln("Answer was correct!!!!");
+		$this->purses[$this->currentPlayer] += 2;
 			echoln($this->players[$this->currentPlayer]
 					. " now has "
 					.$this->purses[$this->currentPlayer]

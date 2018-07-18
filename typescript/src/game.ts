@@ -150,7 +150,7 @@ export class Game {
       
             console.log("Answer was correct!!!!");
       
-            this.purses[this.currentPlayer] += 1;
+            this.purses[this.currentPlayer] += 2;
             console.log(this.players[this.currentPlayer] + " now has " +
                 this.purses[this.currentPlayer] + " Gold Coins.");
       
